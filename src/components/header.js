@@ -28,6 +28,7 @@ const StyledHeader = styled(Header)`
   padding: 1rem 0;
   margin-bottom: 1rem;
   h1 {
+  font-family: hack;
     margin: 0;
   }
 `

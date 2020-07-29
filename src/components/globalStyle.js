@@ -1,9 +1,9 @@
 import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Karla|Lato');
+  @import url('https://fonts.googleapis.com/css?family=Karla|Lato|Hack|Roboto');
   :root {
-    --primary-color: rebeccapurple;
+    --primary-color: hotpink;
     --white: #FFFAFF;
   }
   * {
