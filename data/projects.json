@@ -1,8 +1,9 @@
 [
   {
     "title": "LGBTQ+ Meet",
-    "slug":"project-0",
+    "slug":"lgbtq-meet",
     "url": "https://lgbtq-meetups.herokuapp.com/",
+    "repo": "https://github.com/boostinwrx/lgtbtq-meetups-frontend",
     "images": [
       {
         "create-account-0-wide": "./images/create-account-0-wide",
@@ -21,7 +22,6 @@
         "meetups-4-cropped": "./images/meetups-4-cropped.png",
         "mobile-0": "./images/mobile-0.png",
         "mobile-3": "./images/mobile-3.png"
-
       }
     ]
   }

@@ -31,12 +31,8 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `.cache/caches/gatsby-plugin-typography/typography.js`,
-      },
-    },
+
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

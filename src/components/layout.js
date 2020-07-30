@@ -5,6 +5,7 @@ import { GlobalStyle } from "./globalStyle"
 import { Container, MainWrapper } from "./layoutComponents"
 import Header from "./header"
 import Footer from "./footer"
+import ProjectPreview from "./ProjectPreview";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -22,9 +23,8 @@ const Layout = ({ children }) => (
         <GlobalStyle />
         <Container>
           <Header siteTitle={data.site.siteMetadata.title} />
-          {/*<SubHeader></SubHeader>*/}
-          <main>{children}</main>
-          <Footer />
+          <MainWrapper>{children}</MainWrapper>
+            <Footer />
         </Container>
       </>
     )}
