@@ -19,8 +19,8 @@
     "gatsby-transformer-json": "^2.4.11",
     "gatsby-transformer-sharp": "^2.2.23",
     "prop-types": "^15.7.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "styled-components": "^4.4.0"
