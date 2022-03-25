@@ -23,7 +23,8 @@
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
@@ -38,7 +39,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -46,5 +49,6 @@
   },
   "bugs": {
     "url": "https://github.com/blakenoll/gatsby-starter-styled-components/issues"
-  }
+  },
+  "snyk": true
 }
