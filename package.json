@@ -18,7 +18,7 @@
     "gatsby-styled-components-dark-mode": "^1.2.0",
     "gatsby-transformer-json": "^2.4.11",
     "gatsby-transformer-sharp": "^2.2.23",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
