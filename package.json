@@ -16,7 +16,7 @@
     "gatsby-plugin-typography": "^2.5.10",
     "gatsby-source-filesystem": "^2.1.9",
     "gatsby-styled-components-dark-mode": "^1.2.0",
-    "gatsby-transformer-json": "^2.4.11",
+    "gatsby-transformer-json": "^2.11.0",
     "gatsby-transformer-sharp": "^2.2.23",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
